@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		 <link rel="stylesheet" href="css/index.css">
+		 <style>
+		 	.sliderlist .header>div{
+		 		display: inline-block;
+		 		width:49%;
+		 		position: relative;
+		 	}
+		 	.donateright,.donateleft{
+		 		vertical-align: top;
+		 		font-family: arial;
+		 	}
+		 	.donateleft{
+		 		padding-right:10px
+		 	}
+		 	.donateright{
+		 		padding-left:10px
+		 	}
+		 	.donateleft ul{
+		 		padding-left:25px;
+		 	}
+		 	.donateright img{
+		 		width:240px;
+		 		opacity: 0.1;
+		 		position: absolute;
+		 		z-index: -1;
+		 		top: 14px;
+    			left: 205px
+		 	}
+		 	.donateleft .title{
+		 		position:absolute;
+		 		font-family: "微软雅黑";
+	 		    color: rgba(0,0,0,0.1);
+			    font-size: 115px;
+			    left: -70px;
+			    top: -10px;
+			    line-height: 104px;
+			    text-align: center;
+			    font-weight: bold;
+		 	}
+		 	.circle{
+		 		width:90px;
+		 		height:90px;
+		 		background: rgb(247 ,156 ,117);
+		 		border-radius: 100%;
+		 		margin:10px 0;
+		 		margin-left:60px;
+		 		text-align: center;
+			    line-height: 90px;
+			    font-size: 34px;
+			    color: #ffffff;
+		 	}
+		 	.datecvv{
+		 		display: inline-block;
+		 	}
+		 	input{
+		 		background: #ddd;
+		 		border-radius:10px ;
+		 		margin:5px 0;
+		 		border:none;height: 20px;
+		 		outline:none;
+		 	}
+		 	.more{
+		 		display: inline-block;
+		 		margin:10px 10px 10px 0;
+		 		border-radius: 15px;
+		 		padding:5px 10px;
+		 	}
+		 	.input1,.input1:active,.input1:focus{
+		 		width:40px;
+		 		outline:none
+		 		border:none;
+		 		border-bottom:2px solid #FFFFFF;
+		 		background: transparent;
+		 		border-radius: 0;
+		 	}
+		 </style>
+	</head>
+	<body>
+		<div class="container-box">
+			<div class="header" ><img src="img/c872a2_d9c983fe5ad2459ca730a7a1d2e40403.webp"/>
+				<div class="header-right">
+					<div class="color-orangin imglist">
+						<p><img src="img/资源 1.png"/><img src="img/资源 2.png"/><img src="img/资源 3.png"/></p>
+						<p style="margin-top:-4px"><img src="img/资源 4.png"/><img src="img/资源 5.png"/><img src="img/资源 6.png"/></p>
+						<p style="margin-top:-4px;padding-bottom: 3px;">CONTACT US</p>
+					</div>
+					<div class="buttonlist"><p class="color-orangin">SICN UP</p><p style="margin-top: 28px;" class="color-orangin">SICN UP</p></div>
+				</div>
+			</div>
+			<div class="tabar-list">
+				<div class="header" >
+					<div class="tabfirst"><a href="index.html">Home</a>
+						<!--<p class="homeselect" id="homeselect">
+							<span class="span1 active" id="span1" data-i="1">About us</span>
+							<span class="span2" id="span2" data-i="2">Resources</span>
+							<span class="span3">Events</span>
+						</p>-->
+					</div>
+					<ul>
+						<li></li><li><a href="#">Adopt</a></li>
+						<li><a href="#">Surrender</a></li><li><a href="Volunteer.html">Volunteer</a></li><li><a href="#">Foster</a></li>
+						<li class="active"><a href="Donate.html">Donate</a></li><li></li>
+					</ul>
+					<div class="tablast"><a href="Posts.html">Lost animals</a>
+						<!--<p class="lastselect"><span><a href="Posts.html">Posts</a></span>
+							
+						<span><a href="Check.html">Check</a></span><span>Picked</span></p>-->
+					</div>
+				</div>
+			</div>
+			<div class="sliderlist">
+				<div class="header" style="padding-left: 174px;">
+					<div class="donateleft">
+						<div class="title">W<br>H<br>Y</div>
+						<div style="padding-left:60px">
+							<p>Pets For Life Animal Shelter is always in need of donations. </p><br>
+							<ul style="list-style: initial;">
+								<li>$40.00 will feed one of our cats or kittens for a month. </li>
+								<li>$125.00 will pay for a vet to de-sex a cat or kitten at our shelter.
+								</li><li>Any donation will be used it to help cover the costs of running the shelter and caring for our cats and kittens. </li>
+							</ul><br>
+							<p>Your generosity will help us cover the costs of:</p>
+							<ul style="list-style: initial;margin-top:20px">
+								<li>Insurance </li>
+								<li>Extensive veterinary expenses including, but not limited to, desexing, micro chipping and </li>
+								<li>vaccinating.</li>
+								<li>Food, bedding, parasite prevention, cat litter, toys, equipment and other ongoing feline</li>
+								<li>maintenance costs.</li>
+								<li>Advertising of cats and kittens for adoption on the radio and in newspapers.</li>
+							</ul>
+						</div>
+					</div>				<!--主题内容-->
+					<div class="donateright">
+						<div class="img">
+							<p>Enter your donation amount</p>
+							<p class="circle">$<input type="text" class="input1"></p>
+							<img src="img/animal-charity.png"/>
+							<p>Name of card owner</p>
+							<input type="text" />
+							<p>Card number</p>
+							<input type="text" /><br>
+							<div class="datecvv">
+								<p>Expiration date</p>
+								<input type="text" />
+							</div>
+							<div class="datecvv">
+								<p>CVV</p>
+								<input type="text" style="width:80px"/>
+							</div>
+							<div><p class="more">Billing information</p><p class="more">Billing information</p></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer-list">
+				<div class="header">
+					<div class="footer-title"><span>SPONSORS:</span></div>
+					<ul>
+						<li><img src="img/VetLove-Final-Logo-AI-1-200x54.webp" /></li>
+						<li><img src="img/c872a2_feaaa24b97d9453d9b6b65d8091fc58b.webp" /></li>
+						<li><img src="img/c872a2_090108e7c97f47c08a5be9397d538fb7.webp" /></li>
+						<li><img src="img/c872a2_4b7febfecff245c29ea147540caea4c5.webp"/></li>
+						<li><img src="img/c872a2_370c6f94490941ab811b815ba3ef32f7.webp" /></li>
+					</ul>
+					<div class="footer-right">
+						<span>Privacy polics</span><br><span>Term of use</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script>
+	
+	</script>
+</html>
